@@ -1,0 +1,81 @@
+.wholecont {
+}
+
+.player1 {
+  position: absolute;
+  left: 100px;
+}
+
+.hangmancontainer {
+  position: absolute;
+  left: 350px;
+  top: 78px;
+}
+.player2 {
+  position: relative;
+  left: 120px;
+}
+.post {
+  position: relative;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+.bodyparts {
+  position: relative;
+  left: 166px;
+  bottom: 224px;
+}
+.head {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+.body {
+  background: blue;
+  height: 100px;
+  position: relative;
+  width: 5px;
+  left: 23px;
+  top: 50px;
+}
+.armleft {
+  background: red;
+  width: 30px;
+  height: 5px;
+  position: relative;
+  bottom: 25px;
+  right: 7px;
+}
+.armright {
+  background: green;
+  width: 30px;
+  height: 5px;
+  position: relative;
+  bottom: 30px;
+  left: 28px;
+}
+.legleft {
+  background: rgb(225, 0, 255);
+  width: 30px;
+  height: 5px;
+  position: relative;
+  right: 7px;
+  top: 35px;
+}
+.legright {
+  background: green;
+  width: 30px;
+  height: 5px;
+  position: relative;
+  top: 30px;
+  left: 28px;
+}
+.letters {
+  position: relative;
+  bottom: 85px;
+  left: 150px;
+}

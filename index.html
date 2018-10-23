@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
     <title>Hangman</title>
 </head>
 
@@ -12,61 +13,56 @@
     <header>
         <h1>hangman</h1>
     </header>
-    <div>
-        <h2>Hangman is a game. </h2>
-        <h2> Maybe display some isntructions.</h2>
-    </div>
-
-    <div>
-        <h2>player 1</h2>
-        <button>
-            <!-- word input -->
-        </button>
-    </div>
 
 
-    <div>
-        <h2> player 2</h2>
-        <div class="post">
-            <img src="images/hangman 1 (1).bmp">
+    <div class="wholecont">
+        <div class="player1">
+            <h2>Player 1</h2>
+            <input>
         </div>
+
+
+        <div class="hangmancontainer">
+            <h2 class="player2">Player 2</h2>
+            <div class="post">
+                <!-- post is a container holding hangman-->
+                <img src="images/hangman 1 (1).bmp">
+            </div>
+
+            <div class="bodyparts">
+                <div class="head"></div>
+                <div class="body"></div>
+                <div class="armleft"></div>
+                <div class="armright"></div>
+                <div class="legleft"> </div>
+                <div class="legright"></div>
+                <!-- hangman body -->
+            </div>
+
+            <div class="letters">
+                <button>
+                    <!-- first letter --></button>
+                <button>
+                    <!-- second letter --></button>
+                <button>
+                    <!-- 3rd letter --></button>
+                <button>
+                    <!-- 4th letter --></button>
+                <button>
+                    <!-- 5ht letter --></button>
+                <!-- underlines  -->
+            </div>
+        </div>
+
 
 
 
         <div>
-            <div class="head"> head</div>
-            <div class="body"> body </div>
-            <div class="arm left"> arm left </div>
-            <div class="arm right"> arm right </div>
-            <div class="leg left"> leg left </div>
-            <div class="leg right"> leg right </div>
-            <!-- hangman body -->
+            <h3>
+                <!-- letters used counter -->
+            </h3>
         </div>
-        <div>
-            <button>
-                <!-- first letter -->
-            </button>
-            <button>
-                <!-- second letter -->
-            </button>
-            <button>
-                <!-- 3rd letter -->
-            </button>
-            <button>
-                <!-- 4th letter -->
-            </button>
-            <button>
-                <!-- 5ht letter -->
-            </button>
-            <!-- underlines  -->
-        </div>
-    </div>
 
-
-    <div>
-        <h3>
-            <!-- letters used counter -->
-        </h3>
     </div>
 </body>
 
@@ -100,6 +96,10 @@ make functions that when player 2 types a word, a hang man appears.
 make a function that tracks the letters used
 player 2 has 5 chances untill he completely fails.
  
+
+
+js fucntionality new psudocode todo
+
 
 
 
