@@ -43,7 +43,7 @@ img {
   top: 50px;
 }
 .armleft {
-  background: red;
+  background: cyan;
   width: 30px;
   height: 5px;
   position: relative;
@@ -67,7 +67,7 @@ img {
   top: 35px;
 }
 .legright {
-  background: green;
+  background: rgb(128, 58, 0);
   width: 30px;
   height: 5px;
   position: relative;
