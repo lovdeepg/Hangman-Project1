@@ -6,9 +6,6 @@ Description
 -Hangman is a game, meant to play with two players.
 objective of hangman is to solve the word given by the first player.
 
-Example
-Screenshot of game
-
 Features/User Stories
 Player 1 enters word
 player 2 guesses word using individual letters
