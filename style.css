@@ -76,3 +76,17 @@ img {
   bottom: 85px;
   left: 150px;
 }
+
+.lettercontainer {
+  position: absolute;
+  left: 460px;
+  bottom: -350px;
+}
+
+.answeredletters {
+  position: absolute;
+  left: 460px;
+  bottom: -400px;
+  height: 30px;
+  width: 30px;
+}

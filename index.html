@@ -17,10 +17,9 @@
 
     <div class="wholecont">
         <h2>Player 1</h2>
-        <p> type a word 3-5 characters long</p>
         <div class="submitword">
             <input class="wordinput" type="text" maxlength="5">
-            <button class="submit">submit</button>
+            <button class="submit">enter your word</button>
         </div>
 
 
@@ -40,26 +39,15 @@
                 <div class="legright"></div>
                 <!-- hangman body -->
             </div>
+        </div>
 
-            <div class="letters">
-                <button>
-                    <!-- first letter --></button>
-                <button>
-                    <!-- second letter --></button>
-                <button>
-                    <!-- 3rd letter --></button>
-                <button>
-                    <!-- 4th letter --></button>
-                <button>
-                    <!-- 5ht letter --></button>
-                <!-- underlines  -->
-            </div>
+        <div class="lettercontainer">
+            <input class="letterinput" type="text" maxlength="1">
+            <button class="letterbutton">enter your letter</button>
         </div>
-        <div>
-            <h3>
-                <!-- letters used counter -->
-            </h3>
-        </div>
+        <div class="answeredletters"></div>
+    </div>
+
     </div>
     <script src="hangman.js"> </script>
 </body>
