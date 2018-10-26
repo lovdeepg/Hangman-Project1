@@ -4,43 +4,53 @@
 
 # Hangman Game
 
-##Description
+## Description
 
 Hangman is a 2 player game, where one player inputs a word and second player guesses the word, if second player fails hangman appears
 
-###Example
+### Example
+
 [Screenshot of game](https://user-images.githubusercontent.com/43424606/47571544-c997cc80-d906-11e8-8418-3ff343331c0e.png)
 
-###Features/User Stories
-Player 1 enters word
-player 2 guesses word using individual letters
-if player 2 guesses wrong, indiviual body part appears.
-player has 6 oppurtunities to win.
-if player fails, hangman appears
+### Features/User Stories
 
-###MVP
-####Bronze
+1. Player (1) enters word and submits.
+2. Player (2) guesses word using individual letters.
+3. If player (2) guess correct letter, letter appears.
+4. If player (2) guesses incorrect letter, indiviual body part of "hangman" appears.
+5. Player (2) has six oppurtunities to win, if they fail "hangman" appears
+
+### MVP
+
+#### Bronze
+
 Barebones of the game
 minimal styling and minimal functionallity
-####Silver
+
+#### Silver
+
 Styling to the page
 styling for better hangman
 adjust margins for window
 javascript functions properly and game is playable
-####Gold
+
+#### Gold
+
 Css animations for hangman
 Javascript for counter and winner
 
-##Technology used
+## Technology used
 
 - HTML
 - CSS
 - JavaScript
 
-##Installation/instructions
+## Installation/instructions
+
 No installation needed, stand alone game
 
-##Contribution Guidelines
+## Contribution Guidelines
+
 Code is still under construction. only partially working.
 
 [Repo link](https://github.com/lovdeepg/Hangman-Project1)
@@ -48,13 +58,16 @@ Code is still under construction. only partially working.
 
 If you would like to contribute to the project, please fork and clone the link below.
 
-###Clone Link
+### Clone Link
+
 [Hangman Clone Link](git@github.com:lovdeepg/Hangman-Project1.git)
 
-###Author
+### Author
+
 **Lovdeep Gahunia**
 
-##Acknowledgments
+## Acknowledgments
+
 Tip of my hat to Instructors
 
 - **Don**
