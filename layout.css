@@ -1,0 +1,10 @@
+.answeredletters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.answeredletters p {
+    margin: 0px 2px;
+}
